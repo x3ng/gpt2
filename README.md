@@ -16,8 +16,8 @@ From-scratch training of a 117M-parameter GPT-2 language model using HuggingFace
 
 ## Datasets
 
-- **OpenAI WebText** — local JSONL files under `dataset/gpt-2-output-dataset/data/`
-- **WikiText-103** — loaded from HuggingFace (`Salesforce/wikitext`, `wikitext-103-raw-v1`)
+- **OpenAI WebText** — from [gpt-2-output-dataset](https://github.com/openai/gpt-2-output-dataset), download `webtext.train.jsonl` and `webtext.valid.jsonl` into `dataset/gpt-2-output-dataset/data/`
+- **WikiText-103** — from [Salesforce/wikitext](https://huggingface.co/datasets/Salesforce/wikitext) (`wikitext-103-raw-v1`), auto-downloaded via HuggingFace Datasets API
 
 ## Usage
 
